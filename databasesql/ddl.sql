@@ -1,0 +1,6 @@
+CREATE SCHEMA `trash` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin ;
+
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
